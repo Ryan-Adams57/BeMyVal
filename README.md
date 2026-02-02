@@ -4,4 +4,4 @@ A static Valentine’s Day website built with HTML and hosted on GitHub Pages to
 
 Check out the website here:
 
-https://ryan-adams57.github.io/BeMyVal/
+https://ryan-adams57.github.io/BeMyValentine/
