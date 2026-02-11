@@ -1,0 +1,83 @@
+# Valentine’s Puzzle
+
+An interactive sliding puzzle website designed to ask someone to be your Valentine.
+
+# Features
+
+Animated envelope that opens on click
+
+3×3 sliding puzzle using your custom image
+
+Smooth animations and visual effects
+
+Confetti celebration when she clicks “Yes”
+
+Fully mobile responsive
+
+# Setup
+
+1. Prepare Your Image Tiles
+
+Cut your image into 3×3 squares (I used Figma, but you can also generate them programmatically).
+
+Place all 9 PNG tiles inside the images/ folder.
+
+Replace the full image at:
+
+images/full-image.png
+
+Name your tiles:
+
+tile-1.png through tile-9.png
+
+Tiles should be ordered left-to-right, top-to-bottom:
+
+tile-1.png   tile-2.png   tile-3.png  
+tile-4.png   tile-5.png   tile-6.png  
+tile-7.png   tile-8.png   tile-9.png  
+
+Note: tile-3.png acts as the empty space (top-right corner) during gameplay and appears once the puzzle is completed.
+
+2. Update the Text
+
+Make sure to edit the relevant strings in index.html (names, messages, etc.).
+
+Unless your Valentine is also named “Tasia,” this step is important.
+
+# Deploy to GitHub Pages
+
+Go to your repository Settings
+
+Navigate to Pages
+
+Under Source, select Deploy from branch
+
+Choose branch: main (or master)
+
+Click Save
+
+Your site will be live at:
+
+https://YOUR-USERNAME.github.io/valentine-puzzle/
+
+Share the link.
+
+# How It Works
+
+Stage 0: A letter appears on screen — click to open.
+
+Stage 1: She solves the 3×3 sliding puzzle to reveal your photo.
+
+Stage 2: The full image appears with:
+
+“…you complete me.”
+“Will you be my Valentine?”
+Along with a Yes button.
+
+Stage 3: She clicks “Yes” — celebration time.
+
+# Customization
+
+All messages (greeting, puzzle completion text, final screen) can be customized in index.html.
+
+Made for Valentine’s Day.
